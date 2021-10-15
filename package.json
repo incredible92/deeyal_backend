@@ -4,14 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^6.0.10"
+    "helmet": "^4.6.0",
+    "joi": "^17.4.2",
+    "lint": "^0.7.0",
+    "mongoose": "^6.0.10",
+    "nodemon": "^2.0.13"
   },
   "devDependencies": {
     "@types/node": "^16.10.3",
